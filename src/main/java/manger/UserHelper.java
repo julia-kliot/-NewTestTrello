@@ -48,6 +48,12 @@ public class UserHelper extends HelperBase {
         click(By.cssSelector("#login"));
         type(By.name("password"), password);
     }
+    public void clickOnLoginButton(){
+        if(isElementPresent(By.cssSelector("#login")))
+        {
+            click (By.cssSelector("#login"));
+        }
+    }
 
     public void fillLoginForm(User user) throws InterruptedException {
         type(By.cssSelector("#user"),user.getEmail() );

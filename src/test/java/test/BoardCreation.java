@@ -11,6 +11,7 @@ public class BoardCreation extends TestBase {
     public void testBoardCreation() throws InterruptedException {
         Board board = new Board().withTitle("test");
         int bordCountBeforeCreation = app.getBoard().getBordCount();
+        System.out.println(bordCountBeforeCreation);
         app.getBoard().initBoardCreationfromHeader();
         //app.getBoard().fillBoardCreationForm("test");
         app.getBoard().fillBoardCreationForm(board);
@@ -19,6 +20,7 @@ public class BoardCreation extends TestBase {
         app.getBoard().isCreated();
         app.getBoard().returnToHomePage();
         int bordCountAfterCreation = app.getBoard().getBordCount();
+        System.out.println(bordCountAfterCreation);
 
         Assert.assertEquals(bordCountAfterCreation, bordCountBeforeCreation + 1);
         //Assert.assertTrue(app.getBoard().isCreated());

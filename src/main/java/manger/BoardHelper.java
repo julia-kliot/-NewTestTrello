@@ -13,7 +13,7 @@ public class BoardHelper extends HelperBase {
         super(wd);
     }
     public int getBordCount() {
-        return wd.findElements(By.cssSelector(".boards-page-board-section-list-item")).size()-1;
+        return wd.findElements(By.cssSelector("boards-page-board-section-list-item")).size()-1-recentlyViewedBoardCounts();
     }
 
     public void closeBoard() {
@@ -55,9 +55,14 @@ public class BoardHelper extends HelperBase {
         return wd.findElement(By.cssSelector(".list-name-input")).isDisplayed();
     }
     public void initBoardCreationfromHeader() {
-        click(By.cssSelector("[data-test-id='header-create-menu-button']"));
+        //click(By.cssSelector("[data-test-id='header-create-menu-button']"));
 
-        click(By.cssSelector("[aria-label='BoardIcon']"));
+        //click(By.cssSelector("[aria-label='BoardIcon']"));
+        click(( By.xpath("//div[@class='board-tile mod-add']")));
+    }
+    public int recentlyViewedBoardCounts(){
+        return wd.findElements(By.xpath("//*[contains(@class,'icon-clock')]/../../..//li")).size();
+
     }
     public void returnToHomePage() {click(By.cssSelector("._9Bfh6AVH84yAZe")); }
 }

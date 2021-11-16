@@ -1,7 +1,13 @@
 package manger;
 
+import com.google.common.io.Files;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+
+import java.io.File;
+import java.io.IOException;
 
 public class HelperBase {
     WebDriver wd;
@@ -23,4 +29,19 @@ public class HelperBase {
     public boolean isElementPresent(By locator){
         return wd.findElements(locator).size()>0;
     }
+
+    public void takeScreeenshots(String link){
+        File screenshotAs = ((TakesScreenshot) wd).getScreenshotAs(OutputType.FILE);
+        File screenshots= new File(link);
+        try{
+            //Files.copy(screenshotAs,screenshots);
+            Files.copy(screenshotAs,screenshots);
+
+        }
+        catch (IOException exception){
+            exception.printStackTrace();
+        }
+
+    }
 }
+

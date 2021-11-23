@@ -1,0 +1,12 @@
+19:51:24  DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 20:47:45 23/11/2021 MSK)
+19:51:24  DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 23:32:04 23/11/2021 MSK)
+19:51:24  INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+19:51:24  DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+19:51:24  INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\julia\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+19:51:26  INFO  manger.ApplicationManager - Test starts
+19:51:55  INFO  test.TestBase - Start test---testBoardCreation3
+19:51:55  INFO  manger.MyListener - Start search element by locator--By.cssSelector: [data-test-id='header-create-menu-button']
+19:52:05  INFO  manger.MyListener - Something went wrong!!!!!
+19:52:06  INFO  manger.MyListener - This link to screenshot with error--src/test/screenshot/screenshot--3125.png
+19:52:06  INFO  test.TestBase - ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+19:52:06  INFO  manger.ApplicationManager - Tests are finished

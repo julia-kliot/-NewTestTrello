@@ -1,0 +1,29 @@
+21:36:24  DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 22:35:22 23/11/2021 MSK)
+21:36:24  DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 23:32:04 23/11/2021 MSK)
+21:36:24  INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+21:36:24  DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+21:36:24  INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\julia\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+21:36:26  INFO  manger.ApplicationManager - Test starts
+21:36:54  INFO  test.TestBase - Start test---testChangeAvatar
+21:36:54  INFO  manger.MyListener - Start search element by locator--By.cssSelector: [data-test-id='header-member-menu-button']
+21:36:54  INFO  manger.MyListener - Element with locator--By.cssSelector: [data-test-id='header-member-menu-button']wsa found
+21:36:54  INFO  manger.MyListener - Start search element by locator--By.cssSelector: [data-test-id='header-member-menu-profile'
+21:36:54  INFO  manger.MyListener - Element with locator--By.cssSelector: [data-test-id='header-member-menu-profile'wsa found
+21:36:54  INFO  manger.MyListener - Start search element by locator--By.cssSelector: [href$='manage-profile']
+21:36:55  INFO  manger.MyListener - Element with locator--By.cssSelector: [href$='manage-profile']wsa found
+21:37:02  INFO  manger.MyListener - Start search element by locator--By.cssSelector: [data-test-selector='profile-hover-info']
+21:37:02  INFO  manger.MyListener - Element with locator--By.cssSelector: [data-test-selector='profile-hover-info']wsa found
+21:37:02  INFO  manger.MyListener - Start search element by locator--By.cssSelector: .css-j9ugw7
+21:37:02  INFO  manger.MyListener - Element with locator--By.cssSelector: .css-j9ugw7wsa found
+21:37:02  INFO  manger.MyListener - Start search element by locator--By.xpath: //*[@role='menuitem'][1]
+21:37:02  INFO  manger.MyListener - Element with locator--By.xpath: //*[@role='menuitem'][1]wsa found
+21:37:02  INFO  manger.MyListener - Start search element by locator--By.cssSelector: [id=image-input]
+21:37:02  INFO  manger.MyListener - Element with locator--By.cssSelector: [id=image-input]wsa found
+21:37:03  INFO  manger.MyListener - Start search element by locator--By.cssSelector: .css-19r5em7
+21:37:03  INFO  manger.MyListener - Element with locator--By.cssSelector: .css-19r5em7wsa found
+21:37:03  INFO  manger.MyListener - Something went wrong!!!!!
+21:37:03  INFO  manger.MyListener - This link to screenshot with error--src/test/screenshot/screenshot--2223.png
+21:37:04  INFO  manger.MyListener - Start search element by locator--By.cssSelector: .css-19r5em7
+21:37:04  INFO  manger.MyListener - Element with locator--By.cssSelector: .css-19r5em7wsa found
+21:37:09  INFO  test.TestBase - ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+21:37:09  INFO  manger.ApplicationManager - Tests are finished

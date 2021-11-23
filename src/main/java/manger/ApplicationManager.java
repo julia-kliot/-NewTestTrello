@@ -16,6 +16,7 @@ public class ApplicationManager {
     EventFiringWebDriver wd;
     BoardHelper board;
     UserHelper user;
+    AtlassianHelper atlassian;
 
     public void init() throws InterruptedException {
         ChromeOptions chromeOptions = new ChromeOptions();
@@ -30,6 +31,7 @@ public class ApplicationManager {
 
         board = new BoardHelper(wd);
         user = new UserHelper(wd);
+        atlassian = new AtlassianHelper(wd);
         user.login("juliakliot.jk@gmail.com","misha240613");
         wd.register(new MyListener());
     }
@@ -45,5 +47,14 @@ public class ApplicationManager {
 
     public UserHelper getUser() {
         return user;
+    }
+
+    public AtlassianHelper getAtlassian() {
+        return atlassian;
+    }
+
+    public String getURL() {
+        return wd.getCurrentUrl();
+
     }
 }

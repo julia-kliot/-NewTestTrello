@@ -1,0 +1,158 @@
+19:47:42  DEBUG i.g.b.wdm.cache.ResolutionCache - Removing resolution chrome=96 from cache (expired on Tue Nov 23 00:32:04 MSK 2021)
+19:47:42  DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-00000001: preparing request execution
+19:47:42  DEBUG o.a.h.c.h.protocol.RequestAddCookies - Cookie spec selected: strict
+19:47:42  DEBUG o.a.h.c.h.protocol.RequestAuthCache - Auth cache not set in the context
+19:47:42  DEBUG o.a.h.c.h.impl.classic.ProtocolExec - ex-00000001: target auth state: UNCHALLENGED
+19:47:42  DEBUG o.a.h.c.h.impl.classic.ProtocolExec - ex-00000001: proxy auth state: UNCHALLENGED
+19:47:42  DEBUG o.a.h.c.h.impl.classic.ConnectExec - ex-00000001: acquiring connection with route {s}->https://raw.githubusercontent.com:443
+19:47:42  DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-00000001: acquiring endpoint (3 MINUTES)
+19:47:42  DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-00000001: endpoint lease request (3 MINUTES) [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+19:47:42  DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-00000001: endpoint leased [route: {s}->https://raw.githubusercontent.com:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+19:47:42  DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-00000001: acquired ep-00000000
+19:47:42  DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-00000001: acquired endpoint ep-00000000
+19:47:42  DEBUG o.a.h.c.h.impl.classic.ConnectExec - ex-00000001: opening connection {s}->https://raw.githubusercontent.com:443
+19:47:42  DEBUG o.a.h.c.h.i.c.InternalHttpClient - ep-00000000: connecting endpoint (30 SECONDS)
+19:47:42  DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-00000000: connecting endpoint to https://raw.githubusercontent.com:443 (30 SECONDS)
+19:47:42  DEBUG o.a.h.c.h.i.i.DefaultHttpClientConnectionOperator - http-outgoing-0: connecting to raw.githubusercontent.com/185.199.108.133:443
+19:47:42  DEBUG o.a.h.c.h.s.SSLConnectionSocketFactory - Connecting socket to raw.githubusercontent.com/185.199.108.133:443 with timeout 30 SECONDS
+19:47:42  DEBUG o.a.h.c.h.s.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.2]
+19:47:42  DEBUG o.a.h.c.h.s.SSLConnectionSocketFactory - Enabled cipher suites: [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+19:47:42  DEBUG o.a.h.c.h.s.SSLConnectionSocketFactory - Starting handshake
+19:47:42  DEBUG o.a.h.c.h.s.SSLConnectionSocketFactory - Secure session established
+19:47:42  DEBUG o.a.h.c.h.s.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+19:47:42  DEBUG o.a.h.c.h.s.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+19:47:42  DEBUG o.a.h.c.h.s.SSLConnectionSocketFactory -  peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+19:47:42  DEBUG o.a.h.c.h.s.SSLConnectionSocketFactory -  peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
+19:47:42  DEBUG o.a.h.c.h.s.SSLConnectionSocketFactory -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+19:47:42  DEBUG o.a.h.c.h.i.i.DefaultHttpClientConnectionOperator - http-outgoing-0: connection established 192.168.243.74:54854<->185.199.108.133:443
+19:47:42  DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-00000000: connected http-outgoing-0
+19:47:42  DEBUG o.a.h.c.h.i.c.InternalHttpClient - ep-00000000: endpoint connected
+19:47:42  DEBUG o.a.h.c.h.i.classic.MainClientExec - ex-00000001: executing GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+19:47:42  DEBUG o.a.h.c.h.i.c.InternalHttpClient - ep-00000000: start execution ex-00000001
+19:47:42  DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-00000000: executing exchange ex-00000001 over http-outgoing-0
+19:47:42  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1
+19:47:42  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> user-agent: Apache-HttpClient/5.0
+19:47:42  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> accept-encoding: gzip, deflate, br
+19:47:42  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> cache-control: max-age=0
+19:47:42  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> connection: keep-alive
+19:47:42  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 >> Host: raw.githubusercontent.com
+19:47:42  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/commands.properties HTTP/1.1[\r][\n]"
+19:47:42  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "user-agent: Apache-HttpClient/5.0[\r][\n]"
+19:47:42  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "accept-encoding: gzip, deflate, br[\r][\n]"
+19:47:42  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "cache-control: max-age=0[\r][\n]"
+19:47:42  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "connection: keep-alive[\r][\n]"
+19:47:42  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+19:47:42  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 >> "[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Content-Length: 728[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "ETag: W/"f670816d6bfbef80584dadbb549bb9c4ccd5de869d5b63cc2a694a74613014b5"[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-GitHub-Request-Id: 7132:C2D2:1161170:12CCA3D:61944AC6[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Date: Tue, 23 Nov 2021 16:47:42 GMT[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-Served-By: cache-fra19183-FRA[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-Cache: HIT[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-Cache-Hits: 1[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-Timer: S1637686063.844763,VS0,VE1[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Vary: Authorization,Accept-Encoding,Origin[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "X-Fastly-Request-ID: 62364c84d0bc03f4861c752b574238b65e474451[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Expires: Tue, 23 Nov 2021 16:52:42 GMT[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "Source-Age: 80[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "[\r][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Connection: keep-alive
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Content-Length: 728
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Cache-Control: max-age=300
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << ETag: W/"f670816d6bfbef80584dadbb549bb9c4ccd5de869d5b63cc2a694a74613014b5"
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-Content-Type-Options: nosniff
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-Frame-Options: deny
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-GitHub-Request-Id: 7132:C2D2:1161170:12CCA3D:61944AC6
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Content-Encoding: gzip
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Accept-Ranges: bytes
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Date: Tue, 23 Nov 2021 16:47:42 GMT
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Via: 1.1 varnish
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-Served-By: cache-fra19183-FRA
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-Cache: HIT
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-Cache-Hits: 1
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-Timer: S1637686063.844763,VS0,VE1
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Vary: Authorization,Accept-Encoding,Origin
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Access-Control-Allow-Origin: *
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << X-Fastly-Request-ID: 62364c84d0bc03f4861c752b574238b65e474451
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Expires: Tue, 23 Nov 2021 16:52:42 GMT
+19:47:43  DEBUG org.apache.hc.client5.http.headers - http-outgoing-0 << Source-Age: 80
+19:47:43  DEBUG o.a.h.c.h.i.classic.MainClientExec - ex-00000001: connection can be kept alive for 3 MINUTES
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xffffffb5]V]o[0xffffffda]0[0x14]}[0xffffffe7]W\[0xffffff81]*[0xffffffb5][0x12][0x1f][[M[0xffffffd3]$[0x1e]hF[0xffffffbb]i [0x18][0xffffffb4][0xffffffdd]&[0xfffffff9][0xffffffc5]Mn[0xffffff82][0xffffffa5]$Fv([0xffffffed]~[0xfffffffd]l[0xffffffe7]c$u[0x6]k[0xffffffe8][l_[0xffffff9f]s|[0xffffffef]q|;[0xffffffe0][0xfffffff0]([0xffffffa2][0xffffffb1]'[0xffffffc1][0xffffffa3][0x9]}[0xffffffa0][0x12][[0x1d][0xffffffb8]]1[0x9]>[0xb][0x11]\[0x1e]'[0xffffff94][0xffffffc5][0x12][0xffffff92][0xffffff95][0x1e]d[0xffffffa1][0x9][0xffffff87][0x7][0x4]|Bw[0xffffff93][0xffffffa0][0x7],6[0xffffffcb]r[0xffffff85]a[0xffffffa8][0x7]\x(t[0xffffff90][0xffffff87][0x9][0xffffffba][0xffffff89]Y|D![0x19]Wk>[0xffffffa0][0xfffffffa][0xe][0x4]b[0xc][0xf][0xffffff82]o[0xffffffa5]ZP[0xffffff94][0xffffffa7][0xffffffce]J[0xfffffff0][0x8][0xffffffbb]p[0xffffffcd][0x4][0xfffffffa][0xfffffffc][0xffffffa9][0xb][0xffffffb3]5[\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "[0xffffffda][0xffffff85][0xffffffb1][0x17][0xffffffa8]Y[0xffffffb3][0xffffffca]6[0xffffffd1][0xffffff99][0xffffffc6][0xfffffff7][0xffffff98][0xffffffef][0xffffffa3][0xffffffc0]8[0x1][0xffffffae]c[0x12][0x16][0x7] [0xffffff9f]e[0xffffff82][0xffffff91][0xffffff84][0xffffffd3][0x1f],[0xfffffff6][0x14]j[0x17]&,[0xffffffde]([0xffffff98])ua[0xffffffb6]<k)[0xffffff8e][0xffffff94][0xffffffa2][0xffffff95][0x1d][0xffffffa3][0xffffffef][0xffffff9a]a[0x7f][0xffffff9b]n[0xffffffe8][0xffffffbf]{?t#[0xffffffaf][0xffffffaf]N[0x5][0x3][0x7][0xffffffb6][0x11]sMJL[0x1a][0xffffffb6]+[0xffffffc5][0x7]1[0xffffff8d]p[0xffffffd8]>[0xffffff99]/f7[0xffffff8b][0xffffffd1][0xfffffff4][0xfffffffa][0xffffffeb]d[0xffffffbc]<[0xfffffffd][0xfffffff9][0xfffffff1][0xffffffc3][0xffffffd9]'2$[0xffffffe4][0xffffff84][0xffffff90][0x1b][0xffffffce][0xffffff83][0x10][0x9]Iy[0x8][0x19][0xffffffad][0xffffffd7]!s[0xffffff95]>[0x1e][0x13][0xffffff92][0xffffffb1])[0xfffffff8]6[0x4][0xffffff98][0xffffffc0]}[0xffffff96][0xffffff90][0xffffffc1]#[\r]7[0xfffffff5][0xffffffa2][0xffffffce][0xf][0x14]5[0xffffff99]9[0xffffffa3][0xffffffc9]h>[0xffffffff]<[0xffffffba][0x1d][0xffffffbd][0xffffffa5][0xffffff9e][0xffffff8b]W$[0xffffffe9]-[0xfffffff5]\[0xe][0x17][0xffffffe3][0x1b][0xfffffff8]~7^[0xfffffffc][0xffffff82]/[0xffffffdf][0xffffff9c];[0xffffffb2][0xffffffe4]~[0xffffffb2][0xffffffa5][0x2]s[0xffffffb6][0xffffff8c][0xffffffec]jr[0xffffff85][0xffffffd4]5x[0xffffffb9][0x17][U[0xffffffd0]P;F[0xfffffffb] 0[{[0xffffffe9]4[0xfffffff4]zu[0x1b]"[0xffffffea][0xffffffea][0xfffffff0][0xffffffc1][0xffffffce]A[0xffffffe4] [0xffffffe5][0xffffffcd][0xffffffcc][0xffffffd6][0xffffffa7][0xffffffeb][0xfffffff5][0xffffffc0]Q[0xffffff97]H[0xffffffb9]U[0xe][0xffffff94][0x17]g[0xffffffcb]r[0xffffffc0].[0xffffffba][0xffffffb2]h[0xffffffe6][0xfffffffe][0xffffff82][0xffffffc8]O[0xffffffc7][0xffffffcd]L[0xffffff9a][0xffffffe7][0x7f][0xffffffca][0x7f][0xffffffb3]0[0xffffffa4]9[0x9]!9[0xfffffffa][0xffffffbe][0xffffffa4][0xffffffbf]Pq[0xffffffa8]+k[0xffffffaf][0xffffffca][0xfffffff1][0xffffffa4]\[0xffffffec][0x18][0xffffffa0]]v@FR%kk[0xf]8[0x1b][0xffffffa1][0xffffffff] [0xfffffff7][0xffffffd5][0xffffffca][0xffffffe6][0xfffffff8][0xffffff85][0x17][0xffffffb2][0x9][0xffffffe8]=[0xffffffbe][0xc][0xffffffb2][0xffffffd6]?c[0xffffffb1]U~[0x17]K[0x15][[0xffffffff][0xffffffda][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "LT[0xffffff83]#[0xfffffffe][0xffffff8b][0xffffffa6][0xffffffcc][0x15]\[0xffffffaa]L[0x10][0xffffffa2]i*[0xffffff97]-[0xffffff92][0xffffff86]n_[0xffffffb2][0xffffffcb][0xffffff9a]^S[0xfffffff4]7[0xffffff94]sQ{[0xfffffff3][0xffffffff][0xffffff92][0x19][0xffffffae][0x7f]^}[0xffffff83]Y[0x14];[0xffffffca]w[0xfffffff6][0xfffffff4][0xffffffbc][0xffffffed][0xffffffe6][0xffffff9b]xk[0xffffffdd][0xb]VSW[[0xfffffff9][0xffffffcb][0x11]P[0xffffffba][0xfffffff8][0xffffffe6][0xffffffb5]+X[0xffffffcc][0xffffffbb][0xfffffff6][0xffffffff]n[0xffffffb0]=[0x2]s[0xffffffc1][0x3]A#I[0xffffff88][0xffffffa1] $[0xffffffa4][0xffffff9b][0xffffffd8]U[0xffffffbb][0xfffffff6][0xffffffa6][0xffffffbb]"[0xffffffa2]I[0xfffffff9][0xffffff8f]&[0xffffffe2][0xffffffd0][0xffffffe7][0xffffffc7][0xffffff96][0xffffff89][0xffffff86][0xffffffd4][0xffffff97][\r][0xffffffce][0x7f](u[0xffffff85][0xffffffbb][0xfffffff0][0xffffffa5][0x19][0xffffffda][0xffffffec][0xffffff98][0xffffffc6]Y[0xfffffffd]h8m6[0xffffff9c]U[0xffffffc1][0xfffffff2][0xffffffd6]H[0xfffffff5]W[0xffffffe5][0x17]NM[0x1c][0xffffffc7][0xffffff84]9|[0xffffff83]7[0xffffffbf][0xffffffa4][0xffffffa5][0xfffffff1][0xfffffffb]slAM[0xffffffda][0xffffffa2]ck[0xffffffa9]o[0xffffff89][\n]"
+19:47:43  DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "[0xffffffa6][0xfffffffd][0xffffffdd][0xffffff90]F,[0xffffffec][0xffffff97][0xffffffcf][0xfffffff4][0xffffffb2][0xffffff86]}[0xffffffc7]<u[0xffffff9b][0xffffffce][0xffffff8b]M[0xffffffb5][0xfffffffd][0xffffff93][0xffffff8e][0xffffffb6]:7[0xffffff97]i3[0xffffffaf]cA[0xffffffed][0xffffffc0][0xffffff92][0xfffffffa]T[0xffffffb0][0x2]^[0xffffff9a][0xffffffa1][0x1d]<[\r][0xffffffb5]A[0xffffffa7]+;[0xffffffc0][0x7f][0x0][0xffffffb2]$|[0xffffff88][0x1d][\r][0x0][0x0]"
+19:47:43  DEBUG o.a.h.c.h.i.c.InternalHttpClient - ep-00000000: releasing valid endpoint
+19:47:43  DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-00000000: releasing endpoint
+19:47:43  DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-00000000: connection http-outgoing-0 can be kept alive for 3 MINUTES
+19:47:43  DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-00000000: connection released [route: {s}->https://raw.githubusercontent.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+19:47:43  DEBUG i.g.b.wdm.versions.VersionDetector - Detecting chrome version using online commands.properties
+19:47:43  DEBUG i.g.bonigarcia.wdm.versions.Shell - Running command on the shell: [cmd.exe, /C, wmic, datafile, where, name="%PROGRAMFILES(X86):\=\\%\\Google\\Chrome\\Application\\chrome.exe", get, Version, /value]
+19:47:45  DEBUG i.g.bonigarcia.wdm.versions.Shell - Result: 
+19:47:45  DEBUG i.g.bonigarcia.wdm.versions.Shell - Running command on the shell: [cmd.exe, /C, wmic, datafile, where, name="%LOCALAPPDATA:\=\\%\\Google\\Chrome\\Application\\chrome.exe", get, Version, /value]
+19:47:45  DEBUG i.g.bonigarcia.wdm.versions.Shell - Result: 
+19:47:45  DEBUG i.g.bonigarcia.wdm.versions.Shell - Running command on the shell: [cmd.exe, /C, wmic, datafile, where, name="%PROGRAMFILES:\=\\%\\Google\\Chrome\\Application\\chrome.exe", get, Version, /value]
+19:47:45  DEBUG i.g.bonigarcia.wdm.versions.Shell - Result: Version=96.0.4664.45
+19:47:45  DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 23:32:04 23/11/2021 MSK)
+19:47:45  INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+19:47:45  DEBUG i.g.b.wdm.cache.ResolutionCache - Storing resolution chrome=96 in cache (valid until 20:47:45 23/11/2021 MSK)
+19:47:45  DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+19:47:45  INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\julia\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+19:47:49  INFO  manger.ApplicationManager - Test starts
+19:48:18  INFO  test.TestBase - Start test---testLogin
+19:48:18  INFO  manger.MyListener - Start search element by locator--By.cssSelector: [data-test-id='header-member-menu-button']
+19:48:18  INFO  manger.MyListener - Element with locator--By.cssSelector: [data-test-id='header-member-menu-button']wsa found
+19:48:18  INFO  manger.MyListener - Start search element by locator--By.cssSelector: [data-test-id='header-member-menu-button']
+19:48:19  INFO  manger.MyListener - Element with locator--By.cssSelector: [data-test-id='header-member-menu-button']wsa found
+19:48:19  INFO  manger.MyListener - Start search element by locator--By.cssSelector: [data-test-id='header-member-menu-logout']
+19:48:19  INFO  manger.MyListener - Element with locator--By.cssSelector: [data-test-id='header-member-menu-logout']wsa found
+19:48:20  INFO  manger.MyListener - Start search element by locator--By.cssSelector: #logout-submit
+19:48:20  INFO  manger.MyListener - Element with locator--By.cssSelector: #logout-submitwsa found
+19:48:21  INFO  test.TestBase - Test Login Positive 1 juliakliot.jk@gmail.com  misha240613
+19:48:21  INFO  manger.MyListener - Start search element by locator--By.cssSelector: [href='/login']
+19:48:24  INFO  manger.MyListener - Element with locator--By.cssSelector: [href='/login']wsa found
+19:48:24  INFO  manger.MyListener - Start search element by locator--By.cssSelector: #user
+19:48:26  INFO  manger.MyListener - Element with locator--By.cssSelector: #userwsa found
+19:48:26  INFO  manger.MyListener - Start search element by locator--By.cssSelector: #user
+19:48:26  INFO  manger.MyListener - Element with locator--By.cssSelector: #userwsa found
+19:48:26  INFO  manger.MyListener - Start search element by locator--By.cssSelector: #user
+19:48:26  INFO  manger.MyListener - Element with locator--By.cssSelector: #userwsa found
+19:48:28  INFO  manger.MyListener - Start search element by locator--By.cssSelector: #login
+19:48:28  INFO  manger.MyListener - Element with locator--By.cssSelector: #loginwsa found
+19:48:29  INFO  manger.MyListener - Start search element by locator--By.name: password
+19:48:29  INFO  manger.MyListener - Element with locator--By.name: passwordwsa found
+19:48:29  INFO  manger.MyListener - Start search element by locator--By.name: password
+19:48:29  INFO  manger.MyListener - Element with locator--By.name: passwordwsa found
+19:48:29  INFO  manger.MyListener - Start search element by locator--By.name: password
+19:48:29  INFO  manger.MyListener - Element with locator--By.name: passwordwsa found
+19:48:44  INFO  manger.MyListener - Start search element by locator--By.id: login-submit
+19:48:44  INFO  manger.MyListener - Element with locator--By.id: login-submitwsa found
+19:48:45  INFO  manger.MyListener - Start search element by locator--By.cssSelector: ._9Bfh6AVH84yAZe
+19:48:53  INFO  manger.MyListener - Element with locator--By.cssSelector: ._9Bfh6AVH84yAZewsa found
+19:48:53  INFO  manger.MyListener - Start search element by locator--By.cssSelector: ._9Bfh6AVH84yAZe
+19:48:53  INFO  manger.MyListener - Element with locator--By.cssSelector: ._9Bfh6AVH84yAZewsa found
+19:48:53  INFO  manger.MyListener - Start search element by locator--By.cssSelector: ._9Bfh6AVH84yAZe
+19:48:53  INFO  manger.MyListener - Element with locator--By.cssSelector: ._9Bfh6AVH84yAZewsa found
+19:48:53  INFO  manger.MyListener - Start search element by locator--By.cssSelector: ._9Bfh6AVH84yAZe
+19:48:53  INFO  manger.MyListener - Element with locator--By.cssSelector: ._9Bfh6AVH84yAZewsa found
+19:48:53  INFO  manger.MyListener - Start search element by locator--By.cssSelector: #login
+19:49:03  INFO  manger.MyListener - Element with locator--By.cssSelector: #loginwsa found
+19:49:03  INFO  test.TestBase - ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+19:49:03  INFO  manger.ApplicationManager - Tests are finished

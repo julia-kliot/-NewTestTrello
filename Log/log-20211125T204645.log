@@ -1,0 +1,26 @@
+20:46:45  DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 21:19:40 25/11/2021 MSK)
+20:46:45  DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 01:22:48 26/11/2021 MSK)
+20:46:45  INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+20:46:45  DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+20:46:45  INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\julia\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+20:46:47  INFO  manger.ApplicationManager - Test starts
+20:47:15  INFO  test.TestBase - Start test---testBoardDeletion
+20:47:15  INFO  manger.MyListener - Start search element by locator--By.cssSelector: boards-page-board-section-list-item
+20:47:26  INFO  manger.MyListener - Element with locator--By.cssSelector: boards-page-board-section-list-itemwsa found
+20:47:26  INFO  manger.MyListener - Start search element by locator--By.xpath: //*[contains(@class,'icon-clock')]/../../..//li
+20:47:36  INFO  manger.MyListener - Element with locator--By.xpath: //*[contains(@class,'icon-clock')]/../../..//liwsa found
+20:47:36  INFO  manger.MyListener - Start search element by locator--By.cssSelector: .boards-page-board-section-list-item
+20:47:36  INFO  manger.MyListener - Element with locator--By.cssSelector: .boards-page-board-section-list-itemwsa found
+20:47:36  INFO  manger.MyListener - Start search element by locator--By.cssSelector: .js-show-sidebar
+20:47:37  INFO  manger.MyListener - Element with locator--By.cssSelector: .js-show-sidebarwsa found
+20:47:37  INFO  manger.MyListener - Start search element by locator--By.cssSelector: .js-open-more
+20:47:37  INFO  manger.MyListener - Element with locator--By.cssSelector: .js-open-morewsa found
+20:47:37  INFO  manger.MyListener - Start search element by locator--By.cssSelector: .js-close-board
+20:47:37  INFO  manger.MyListener - Element with locator--By.cssSelector: .js-close-boardwsa found
+20:47:37  INFO  manger.MyListener - Start search element by locator--By.cssSelector: .js-confirm
+20:47:37  INFO  manger.MyListener - Element with locator--By.cssSelector: .js-confirmwsa found
+20:47:37  INFO  manger.MyListener - Start search element by locator--By.cssSelector: .js-delete
+20:47:47  INFO  manger.MyListener - Something went wrong!!!!!
+20:47:48  INFO  manger.MyListener - This link to screenshot with error--src/test/screenshot/screenshot--2867.png
+20:47:48  INFO  test.TestBase - ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+20:47:48  INFO  manger.ApplicationManager - Tests are finished

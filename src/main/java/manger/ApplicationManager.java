@@ -17,6 +17,8 @@ public class ApplicationManager {
     BoardHelper board;
     UserHelper user;
     AtlassianHelper atlassian;
+    CardHelper card;
+    ListHelper list;
 
     public void init() throws InterruptedException {
         ChromeOptions chromeOptions = new ChromeOptions();
@@ -32,6 +34,9 @@ public class ApplicationManager {
         board = new BoardHelper(wd);
         user = new UserHelper(wd);
         atlassian = new AtlassianHelper(wd);
+        card = new CardHelper(wd);
+        list = new ListHelper(wd);
+
         user.login("juliakliot.jk@gmail.com","misha240613");
         wd.register(new MyListener());
     }
@@ -51,6 +56,14 @@ public class ApplicationManager {
 
     public AtlassianHelper getAtlassian() {
         return atlassian;
+    }
+
+    public CardHelper getCard() {
+        return card;
+    }
+
+    public ListHelper getList() {
+        return list;
     }
 
     public String getURL() {

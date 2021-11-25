@@ -29,6 +29,7 @@ public class BoardCreation extends TestBase {
     @Test
     public void testBoardCreation3() throws InterruptedException {
         Board board= Board.builder().title("test 3").build();
+
         app.getBoard().initBoardCreationfromHeader();
         app.getBoard().fillBoardCreationForm(board);
         app.getBoard().newCreation();

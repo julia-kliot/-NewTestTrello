@@ -60,5 +60,7 @@ public class HelperBase {
         new WebDriverWait(wd, time).until(ExpectedConditions.elementToBeClickable(locator)).click();
         // wd.findElement(locator).click();
     }
+
+
 }
 

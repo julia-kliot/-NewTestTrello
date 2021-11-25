@@ -1,0 +1,29 @@
+20:43:34  DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 21:19:40 25/11/2021 MSK)
+20:43:34  DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 01:22:48 26/11/2021 MSK)
+20:43:34  INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+20:43:34  DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+20:43:34  INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\julia\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+20:43:36  INFO  manger.ApplicationManager - Test starts
+20:44:04  INFO  test.TestBase - Start test---cardCreation1
+20:44:04  INFO  manger.MyListener - Start search element by locator--By.cssSelector: .boards-page-board-section-list-item
+20:44:07  INFO  manger.MyListener - Element with locator--By.cssSelector: .boards-page-board-section-list-itemwsa found
+20:44:08  INFO  manger.MyListener - Start search element by locator--By.cssSelector: .list
+20:44:08  INFO  manger.MyListener - Element with locator--By.cssSelector: .listwsa found
+20:44:08  INFO  manger.MyListener - Start search element by locator--By.cssSelector: .js-add-a-card
+20:44:08  INFO  manger.MyListener - Element with locator--By.cssSelector: .js-add-a-cardwsa found
+20:44:08  INFO  manger.MyListener - Start search element by locator--By.cssSelector: .js-card-title
+20:44:08  INFO  manger.MyListener - Element with locator--By.cssSelector: .js-card-titlewsa found
+20:44:08  INFO  manger.MyListener - Start search element by locator--By.cssSelector: .js-card-title
+20:44:09  INFO  manger.MyListener - Element with locator--By.cssSelector: .js-card-titlewsa found
+20:44:09  INFO  manger.MyListener - Start search element by locator--By.cssSelector: .js-card-title
+20:44:09  INFO  manger.MyListener - Element with locator--By.cssSelector: .js-card-titlewsa found
+20:44:09  INFO  manger.MyListener - Start search element by locator--By.cssSelector: .js-cc-menu
+20:44:09  INFO  manger.MyListener - Element with locator--By.cssSelector: .js-cc-menuwsa found
+20:44:09  INFO  manger.MyListener - Start search element by locator--By.cssSelector: .js-label-selector
+20:44:09  INFO  manger.MyListener - Element with locator--By.cssSelector: .js-label-selectorwsa found
+20:44:09  INFO  manger.MyListener - Start search element by locator--By.cssSelector: [data-color=green]
+20:44:09  INFO  manger.MyListener - Element with locator--By.cssSelector: [data-color=green]wsa found
+20:44:09  INFO  manger.MyListener - Start search element by locator--By.cssSelector: .js-add-card
+20:44:09  INFO  manger.MyListener - Element with locator--By.cssSelector: .js-add-cardwsa found
+20:44:09  INFO  test.TestBase - ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+20:44:09  INFO  manger.ApplicationManager - Tests are finished

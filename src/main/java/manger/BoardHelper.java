@@ -49,7 +49,10 @@ public class BoardHelper extends HelperBase {
         WebDriverWait wait = new WebDriverWait(wd, 10);
         wait.until(ExpectedConditions.elementToBeClickable(wd.findElement(By.cssSelector("[data-test-id='create-board-submit-button']"))));
         return wd.findElement(By.cssSelector("[data-test-id='create-board-submit-button']")).isDisplayed();
+
     }
+
+
     public  void  submitBoardCreation(){
         click(By.cssSelector("[data-test-id='create-board-submit-button']"));
     }

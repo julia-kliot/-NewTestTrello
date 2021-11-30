@@ -26,7 +26,7 @@ public class BoardCreation extends TestBase {
         //Assert.assertTrue(app.getBoard().isCreated());
 
     }
-    @Test
+    @Test (groups = {"logs"}, invocationCount = 1)
     public void testBoardCreation3() throws InterruptedException {
         Board board= Board.builder().title("test 3").build();
 

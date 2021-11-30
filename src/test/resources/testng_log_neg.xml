@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="log">
+    <groups>
+        <run>
+            <include name="logs_neg"/>
+        </run>
+    </groups>
+    <test name="log">
+        <classes>
+            <class name="test.Login"/>
+
+        </classes>
+    </test>
+</suite>

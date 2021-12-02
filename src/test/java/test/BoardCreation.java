@@ -38,6 +38,5 @@ public class BoardCreation extends TestBase {
         app.getBoard().isCreated();
         app.getBoard().returnToHomePage();
 
-
     }
 }

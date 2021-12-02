@@ -34,12 +34,12 @@ task log(type: Test) {
         }
 
         def suite = System.getProperty('suite', '')
-        if (suite.equals('log')) {
+        if (suite.equals('login')) {
             suites 'src/test/resources/logng.xml'
         } else if (suite.equals('smoke')) {
             suites 'src/test/resources/smoke.xml'
         } else {
-            suites 'src/test/resources/testng.xml'
+            suites 'src/test/resources/test0.xml'
         }
 
         if (project.hasProperty('browser')) {

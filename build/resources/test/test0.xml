@@ -1,8 +1,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="login">
-    <test name="login">
+<suite name="test0">
+    <test name="log">
         <classes>
             <class name="test.Login"/>
+            <class name="test.BoardCreation"/>
+
 
         </classes>
     </test>

@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="log">
+<suite name="login">
     <test name="login">
         <classes>
             <class name="test.Login"/>

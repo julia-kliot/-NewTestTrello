@@ -1,11 +1,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="smoke">
+<suite name="log">
+    <groups>
+        <run>
+            <include name="del"/>
+        </run>
+    </groups>
     <test name="log">
         <classes>
 
             <class name="test.BoardDeletion"/>
-
-
         </classes>
     </test>
 </suite>

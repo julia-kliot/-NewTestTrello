@@ -4,7 +4,8 @@ import models.Card;
 import org.testng.annotations.Test;
 
 public class CardCreation extends TestBase {
-    @Test
+
+    @Test(groups = {"logs"})
     public void cardCreation1(){
         Card card= Card.builder().cardName("test_new").color("green").build();
         app.getBoard().ClickOnfirstBoard();

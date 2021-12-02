@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="log">
+    <groups>
+        <run>
+            <include name="avt"/>
+        </run>
+    </groups>
+    <test name="log">
+        <classes>
+            <class name="test.Login"/>
+            <class name="test.UserModification"/>
+        </classes>
+    </test>
+</suite>

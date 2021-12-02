@@ -12,7 +12,7 @@ public class UserModification extends TestBase {
     }
 
 
-    @Test
+    @Test(groups = {"avt"})
     public void testChangeAvatar() throws InterruptedException {
         app.getUser().clickOnAvatar();
         app.getUser().openUserProfile();

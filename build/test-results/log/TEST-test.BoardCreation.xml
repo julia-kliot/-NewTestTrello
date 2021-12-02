@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.BoardCreation" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-12-02T16:59:02" hostname="LAPTOP-BETKQUU3" time="9.525">
-  <properties/>
-  <testcase name="testBoardCreation3" classname="test.BoardCreation" time="9.525"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
